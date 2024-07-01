@@ -19,8 +19,8 @@ export default function Header() {
       </View>
       <View style={styles.searchContainer}>
             {/*Search bar*/}
-            <Ionicons name="search" size={24} color="black" />
-            <TextInput placeholder="Search..."/>
+            <Ionicons name="search" size={24} color={Colors.PRIMARY} />
+            <TextInput placeholder="Search..." style={{fontFamily:'outfit',fontSize:15}}/>
         </View>
     </View>
   );
@@ -31,6 +31,8 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingTop: 40,
     backgroundColor: Colors.PRIMARY,
+    borderBottomLeftRadius:20,
+    borderBottomRightRadius:20,
   },
   imgContainer: {
     display: "flex",
@@ -53,6 +55,10 @@ const styles = StyleSheet.create({
     flexDirection:'row',
     alignItems:'center',
     backgroundColor:'#fff',
-    
+    padding:10,
+    marginVertical:10,
+    marginTop:15,
+    borderRadius:8,
+    gap:10
   }
 });
