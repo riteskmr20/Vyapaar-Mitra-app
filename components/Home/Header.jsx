@@ -1,7 +1,7 @@
 import { View, Text, Image, StyleSheet, TextInput } from "react-native";
 import React from "react";
 import { useUser } from "@clerk/clerk-expo";
-import { Colors } from "../constants/Colors";
+import { Colors } from "../../constants/Colors";
 import { Ionicons } from '@expo/vector-icons';
 
 
