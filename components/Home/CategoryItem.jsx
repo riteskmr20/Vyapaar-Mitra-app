@@ -1,9 +1,9 @@
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 import React from "react";
 
-export default function CategoryItem({ category }) {
+export default function CategoryItem({ category ,onCategoryPress}) {
   return (
-    <TouchableOpacity >
+    <TouchableOpacity onPress={()=>onCategoryPress(category)}>
       
         <View style={styles.imageCategory}>
           <Image
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     fontFamily: "outfit-medium",
     textAlign: "center",
     fontSize: 12,
+    marginTop:5
     
   },
 });

@@ -31,7 +31,7 @@ export default function Category() {
     <View>
       <View style={styles.textContainer}>
         <Text style={styles.categoryText}>Category</Text>
-        <Text style={styles.viewText}>View All</Text>
+        <Text style={styles.viewText} >View All</Text>
       </View>
 
       <FlatList
@@ -41,7 +41,8 @@ export default function Category() {
         style={{marginLeft:20}}
         renderItem={({ item, index }) => 
            (
-            <CategoryItem category={item}/>
+            <CategoryItem category={item} key={index}
+              onCategoryPress={(category)=>console.log(category)}/>
            )
           
         }
@@ -60,7 +61,7 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop: 20,
+    marginTop: 10,
   },
   viewText: {
     color: Colors.PRIMARY,
