@@ -32,12 +32,12 @@ export default function BusinessListbyCategory() {
     setBusinessList([]);
     const q = query(
       collection(db, "CategoryList"),
-      where("category", "==", category)
+      where("category", "==", category)   
     );
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc) => {
       console.log(doc.data());
-      setBusinessList((prev) => [...prev, doc.data()]);
+      setBusinessList((prev) => [...prev, {id:doc?.id,  ...doc.data()}]);//set id to businessListCard
     });
     setloading(false);//after the data is load indicator is false
   };
