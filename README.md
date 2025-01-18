@@ -25,6 +25,23 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+## Screen Shots
+
+### 1.Main Screen
+<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152634.png" alt="Screenshot 1" width="800" />
+
+### 2. Home Page
+<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152742.png" alt="Screenshot 1" width="800" />
+
+### 3. Login Screen
+<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152711.png" alt="Screenshot 1" width="800" />
+
+### 4. Shop List
+<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152753.png" alt="Screenshot 1" width="800" />
+
+### 5. Shop Detail
+<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152822.png" alt="Screenshot 1" width="800" />
+
 ## Get a fresh project
 
 When you're ready, run:
