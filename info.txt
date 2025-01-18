@@ -1,0 +1,2 @@
+//react native rating library---
+npm install --save react-native-ratings

@@ -38,11 +38,17 @@ export default function ActionButton({ business }) {
   ];
   
   const onPressHandle=(item)=>{
-    if(item.name=='Share'||'Web')
+    if(item.name=='Share')
     {
-        return;
+      return;
     }
-    Linking.openURL(item.url)
+    if(item.name=='Web')
+    {
+      return;
+    }
+    Linking.openURL(item.url);
+    
+    
   }
 
   return (

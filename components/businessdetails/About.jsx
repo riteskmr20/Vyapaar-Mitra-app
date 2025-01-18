@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   aboutContainer: {
     padding: 20,
     backgroundColor: "#fff",
-    height: "100%",
+   
   },
   aboutText: {
     fontFamily: "outfit-bold",
@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
   aboutDetail: {
     fontFamily: "outfit",
     padding: 2,
-    lineHeight: 22,
+    lineHeight: 25,
   },
 });
