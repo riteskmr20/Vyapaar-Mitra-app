@@ -28,7 +28,7 @@ You can start developing by editing the files inside the **app** directory. This
 ## Screen Shots
 
 ### 1.Main Screen
-<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152634.png" alt="Screenshot 1" width="800" />
+<img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152634.png" alt="Screenshot 1" width="200" height="800" />
 
 ### 2. Home Page
 <img src="https://github.com/riteskmr20/Vyapaar-Mitra-app/blob/main/assets/Screenshots/Screenshot_20250118_152742.png" alt="Screenshot 1" width="800" />
